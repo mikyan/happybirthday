@@ -32,11 +32,10 @@
 
 
             <div id="text">
-                <video width="320" height="180" controls>
-                    <source src="movie/love.mp4" type="video/mp4">
-                </video>
                 <div id="code">
-
+                    <video width="320" height="180" controls>
+                        <source src="movie/love.mp4" type="video/mp4">
+                    </video>
                 </div>
             </div>
             <div id="clock-box">
@@ -201,7 +200,7 @@
                 $await(flowAnimate());
                 $await(moveAnimate());
 
-                textAnimate().start();
+                //textAnimate().start();
 
                 $await(jumpAnimate());
             }));
