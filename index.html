@@ -24,17 +24,11 @@
 </head>
 
 <body>
-    <audio autoplay="autopaly">
+    <!--  <audio autoplay="autopaly">
         <source src="music/love.mp3" type="audio/mp3" />
-    </audio>
-    <span>
-        <video width="320" height="240" controls>
-            <source src="movie/love.mp4" type="video/mp4">
-            <object data="movie/love.mp4" width="320" height="240">
-                <embed src="movie/love.mp4" width="320" height="240">
-            </object>
-        </video>
-    </span>
+    </audio>-->
+
+
     <div id="main">
         <div id="wrap">
             <div id="text">
@@ -67,7 +61,14 @@
             </div>
             <canvas id="canvas" width="1100" height="680"></canvas>
         </div>
-
+        <span>
+            <video width="320" height="240" controls>
+                <source src="movie/love.mp4" type="video/mp4">
+                <object data="movie/love.mp4" width="320" height="240">
+                    <embed src="movie/love.mp4" width="320" height="240">
+                </object>
+            </video>
+        </span>
     </div>
 
     <script>
